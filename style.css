@@ -1,8 +1,29 @@
 * {
+    margin: 0px;
+    padding: 0px;
     font-family: 'Courier New', Courier, monospace;
     background-color: lightblue;
 }
 
 .head1 {
+    height: 100px;
+    width: 1000px;
+    /* this will center the element horizontally inspect*/
+    margin: 10px auto;
     text-align: center;
+    padding: 10px;
+}
+
+ul {
+    /* to display the li elements in ul as flex */
+    display: flex;
+}
+
+li {
+    /* to avoid the overalapping in the list elements */
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: turquoise;
 }
